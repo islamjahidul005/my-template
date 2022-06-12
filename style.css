@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.coloring {
+    color: orange;
+}
+
+.firs-part {
+    display: flex;
+    background-image: url(circle-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.row-column {
+    width: 100%;
+    padding: 5%;
+}
+
+.linker {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: linear-gradient(tomato, orange);
+}
+
+.firs-part img {
+    width: 60%;
+}
