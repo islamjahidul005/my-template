@@ -17,6 +17,13 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.second-part {
+    display: flex;
+    background-image: url(dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
 .row-column {
     width: 100%;
     padding: 5%;
@@ -34,4 +41,33 @@ h1 {
 
 .firs-part img {
     width: 60%;
+}
+
+.third-part {
+    display: flex;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.experiences-part {
+    width: 40%;
+    margin: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+}
+
+.full-stack {
+    border-left: 10px solid;
+    border-image: linear-gradient(red, yellow);
+    border-image-slice: 1;
+}
+
+.baby-web-developer {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
